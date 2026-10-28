@@ -5,7 +5,7 @@ from PySide6.QtCore import QUrl
 from PySide6.QtWidgets import QApplication, QToolBar, QMainWindow
 from PySide6.QtWebEngineWidgets import QWebEngineView
 
-class App:
+class Botot:
     def __init__(self):
         self.title = None
         self.php_path = None
