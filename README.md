@@ -7,15 +7,15 @@ Aplicativo desktop minimalista que trás o PHP para o mundo dos desktops.
 - Python 3.10+ (testado com 3.14)
 - PHP 3+
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install PySide6
-```
-
 ## Instalação
 
 ```bash
+# Preparando o ambiente
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Instalação
 ./install.sh
 botot /caminho/do/projeto-php
 ```
